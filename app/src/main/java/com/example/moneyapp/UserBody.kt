@@ -2,5 +2,6 @@ package com.example.moneyapp
 
 
 data class UserBody(
-    val usernamewww: String,
+    val username: String,
+    val type: String,
     val password: String)
