@@ -23,7 +23,7 @@ private val retrofit = Retrofit.Builder()
 interface ApiService {
     @POST("/tokens/")
     fun getProperties():
-            Call<UserBody>
+            Call<User>
 }
 
 object Api {
