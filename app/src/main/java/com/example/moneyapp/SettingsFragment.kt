@@ -31,10 +31,8 @@ class SettingsFragment : Fragment() {
             false
         )
 
-        val button = binding.button3
-
-        button.setOnClickListener{
-            val intent= Intent(this, LoginActivity::class.java)
+        binding.button3.setOnClickListener{
+            val intent= Intent(this@SettingsFragment.context, LoginActivity::class.java)
             startActivity(intent)
         }
 
